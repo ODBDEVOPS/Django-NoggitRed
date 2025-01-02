@@ -61,4 +61,14 @@ Les fichiers du jeu World of Warcraft utilisent des formats propriétaires. Voic
 - Afficher le terrain en 3D.
 - Ajouter des outils d'édition (ex. : glisser pour modifier la hauteur, appliquer des textures).
 
+# 6. Challenges
+Formats propriétaires : Manipuler des fichiers WoW nativement (comme .ADT, .WMO) est complexe et nécessite une compréhension approfondie des formats.
+Performance : Le rendu en temps réel et la manipulation de grandes cartes nécessitent des optimisations front-end.
+Interopérabilité : Rendre les fichiers modifiés compatibles avec WoW implique de respecter leurs spécifications exactes.
+---
+
+# 7. Conclusion
+Il est techniquement possible de recréer un éditeur comme Noggit Red en utilisant Django pour le backend et des outils comme Three.js ou Babylon.js pour le frontend. Cependant, cela nécessitera :
+Une équipe multidisciplinaire (backend, frontend, manipulation de formats de jeu).
+Un investissement significatif en temps et en ressources.
 
