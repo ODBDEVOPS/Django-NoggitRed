@@ -3,16 +3,16 @@
 
 💬 Ask
 
-# 🛠️ Technologies & Tools
+## 🛠️ Technologies & Tools
 <p align="left">
   <img src="https://img.shields.io/badge/Django-3776AB?style=flat&logo=python&logoColor=white" alt="Django"/>
 </p>
 
 # 1. Analyse des fonctionnalités de Noggit Red
 Noggit Red permet de :
-Charger et visualiser des cartes du jeu (basées sur des fichiers de terrain et d'objets 3D).
-Modifier le terrain (hauteur, texture, etc.).
-Ajouter ou supprimer des objets.
-Sauvegarder les modifications dans un format compatible avec World of Warcraft.
+- Charger et visualiser des cartes du jeu (basées sur des fichiers de terrain et d'objets 3D).
+- Modifier le terrain (hauteur, texture, etc.).
+- Ajouter ou supprimer des objets.
+- Sauvegarder les modifications dans un format compatible avec World of Warcraft.
 
 
