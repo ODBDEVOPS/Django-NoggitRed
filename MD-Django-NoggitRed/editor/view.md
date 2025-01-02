@@ -1,4 +1,5 @@
 ``` python
+from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
@@ -17,5 +18,9 @@ class TerrainAPIView(APIView):
         data = request.data.get('data', {})
         terrain = Terrain.objects.create(name=name, data=data)
         return Response({'id': terrain.id, 'name': terrain.name}, status=status.HTTP_201_CREATED)
+
+
+def editor_view(request):
+    return render(request, 'editor/editor.html')
 
 ```
