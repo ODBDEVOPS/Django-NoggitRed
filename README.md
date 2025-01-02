@@ -51,7 +51,7 @@ Les fichiers du jeu World of Warcraft utilisent des formats propriétaires. Voic
 - Utiliser des bibliothèques externes comme CascView pour extraire les fichiers du client WoW.
 - Convertir les fichiers .ADT, .WMO, ou .M2 dans des formats compatibles avec les outils de manipulation 3D (comme .obj ou .gltf).
 ## 2. Backend pour la lecture et la modification :
-- Développer des outils Python capables de lire et d'éditer ces fichiers (ex. : utiliser des bibliothèques comme pywowlib ou en créer une dédiée).
+- Développer des outils <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/> capables de lire et d'éditer ces fichiers (ex. : utiliser des bibliothèques comme pywowlib ou en créer une dédiée).
 - Exposer ces fonctionnalités via des API REST.
 ## 3. Frontend pour l'édition en temps réel :
 - Charger les modèles et les terrains dans un visualiseur 3D basé sur Three.js ou Babylon.js.
