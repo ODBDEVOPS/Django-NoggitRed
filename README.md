@@ -1,8 +1,8 @@
 # Django-NoggitRed ODBDEVOPS! 👋
 🔭 Refaire un modèle capable de reproduire ce que fait Noggit Red (un éditeur de cartes pour World of Warcraft) dans une application Django est un projet extrêmement ambitieux, mais théoriquement possible. Cependant, cela nécessiterait de combiner Django avec des technologies front-end avancées pour gérer les aspects graphiques et 3D.
 
-💬 Ask
-
+💬 Contributors
+![GitLab Contributors](https://img.shields.io/gitlab/contributors/:Django-NoggitRed)
 ## 🛠️ Technologies & Tools
 <p align="left">
   <img src="https://img.shields.io/badge/Django-3776AB?style=flat&logo=python&logoColor=white" alt="Django"/>
@@ -82,7 +82,7 @@ Il est techniquement possible de recréer un éditeur comme Noggit Red en utilis
 Une équipe multidisciplinaire (backend, frontend, manipulation de formats de jeu).
 Un investissement significatif en temps et en ressources.
 
-![GitLab Contributors](https://img.shields.io/gitlab/contributors/:project)
+
 
 <!--
 **ODBDEVOPS/ODBDEVOPS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
