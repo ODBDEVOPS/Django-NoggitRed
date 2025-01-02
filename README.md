@@ -70,7 +70,7 @@ Les fichiers du jeu World of Warcraft utilisent des formats propriétaires. Voic
 
 ---
 
-# 6. Challenges
+# 6. 🏆 Challenges
 Formats propriétaires : Manipuler des fichiers WoW nativement (comme .ADT, .WMO) est complexe et nécessite une compréhension approfondie des formats.
 Performance : Le rendu en temps réel et la manipulation de grandes cartes nécessitent des optimisations front-end.
 Interopérabilité : Rendre les fichiers modifiés compatibles avec WoW implique de respecter leurs spécifications exactes.
@@ -82,3 +82,8 @@ Il est techniquement possible de recréer un éditeur comme Noggit Red en utilis
 Une équipe multidisciplinaire (backend, frontend, manipulation de formats de jeu).
 Un investissement significatif en temps et en ressources.
 
+![GitLab Contributors](https://img.shields.io/gitlab/contributors/:project)
+
+<!--
+**ODBDEVOPS/ODBDEVOPS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+-->
