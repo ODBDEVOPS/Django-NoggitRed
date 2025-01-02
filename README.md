@@ -14,6 +14,7 @@ Noggit Red permet de :
 - Modifier le terrain (hauteur, texture, etc.).
 - Ajouter ou supprimer des objets.
 - Sauvegarder les modifications dans un format compatible avec World of Warcraft.
+
 Reproduire ces fonctionnalités implique :
 - Un backend capable de lire et écrire les fichiers du jeu (par exemple, les fichiers .ADT, .WMO, ou .M2).
 - Un frontend capable de rendre des modèles 3D en temps réel, d'appliquer des textures et d'interagir avec l'utilisateur.
