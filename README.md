@@ -21,6 +21,8 @@ Reproduire ces fonctionnalités implique :
 - Un backend capable de lire et écrire les fichiers du jeu (par exemple, les fichiers .ADT, .WMO, ou .M2).
 - Un frontend capable de rendre des modèles 3D en temps réel, d'appliquer des textures et d'interagir avec l'utilisateur.
 
+---
+
 # 2. Rôle de Django
 Django peut jouer un rôle crucial dans le backend :
 - Gestion des fichiers : Django peut être utilisé pour uploader, lire, et servir les fichiers nécessaires.
@@ -28,6 +30,7 @@ Django peut jouer un rôle crucial dans le backend :
 - Authentification et permissions : Django peut gérer les utilisateurs, les projets, et les autorisations.
 - Stockage des données : Utiliser une base de données pour enregistrer des métadonnées sur les cartes et les modifications.
 
+---
 
 # 3. Technologies front-end pour la visualisation 3D
 Pour la partie front-end, Django devra être complété par une bibliothèque ou un moteur 3D capable de gérer les fonctionnalités en temps réel.
@@ -38,10 +41,10 @@ Pour la partie front-end, Django devra être complété par une bibliothèque ou
 
 Ces outils peuvent gérer le rendu 3D des fichiers convertis depuis le format natif de World of Warcraft (comme les fichiers .ADT ou .WMO).
 
+---
+
 # 4. Pipeline pour la manipulation des fichiers
-
 Les fichiers du jeu World of Warcraft utilisent des formats propriétaires. Voici un pipeline possible pour les manipuler avec Django :
-
 ## 1. Extraction et conversion des fichiers :
 - Utiliser des bibliothèques externes comme CascView pour extraire les fichiers du client WoW.
 - Convertir les fichiers .ADT, .WMO, ou .M2 dans des formats compatibles avec les outils de manipulation 3D (comme .obj ou .gltf).
@@ -53,6 +56,8 @@ Les fichiers du jeu World of Warcraft utilisent des formats propriétaires. Voic
 - Implémenter des outils d'édition (changement de texture, modification de hauteur, placement d'objets).
 - Envoyer les modifications au backend pour mise à jour des fichiers source.
 
+---
+
 # 5. Exemple de flux de travail Django/Three.js
 ## 1. Backend Django :
 - Une vue pour uploader une carte (fichier .ADT).
@@ -63,10 +68,14 @@ Les fichiers du jeu World of Warcraft utilisent des formats propriétaires. Voic
 - Afficher le terrain en 3D.
 - Ajouter des outils d'édition (ex. : glisser pour modifier la hauteur, appliquer des textures).
 
+---
+
 # 6. Challenges
 Formats propriétaires : Manipuler des fichiers WoW nativement (comme .ADT, .WMO) est complexe et nécessite une compréhension approfondie des formats.
 Performance : Le rendu en temps réel et la manipulation de grandes cartes nécessitent des optimisations front-end.
 Interopérabilité : Rendre les fichiers modifiés compatibles avec WoW implique de respecter leurs spécifications exactes.
+
+---
 
 # 7. Conclusion
 Il est techniquement possible de recréer un éditeur comme Noggit Red en utilisant Django pour le backend et des outils comme Three.js ou Babylon.js pour le frontend. Cependant, cela nécessitera :
