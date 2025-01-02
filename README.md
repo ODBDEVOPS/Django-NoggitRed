@@ -36,4 +36,19 @@ Pour la partie front-end, Django devra être complété par une bibliothèque ou
 
 Ces outils peuvent gérer le rendu 3D des fichiers convertis depuis le format natif de World of Warcraft (comme les fichiers .ADT ou .WMO).
 
+# 4. Pipeline pour la manipulation des fichiers
+
+Les fichiers du jeu World of Warcraft utilisent des formats propriétaires. Voici un pipeline possible pour les manipuler avec Django :
+
+## 1. Extraction et conversion des fichiers :
+- Utiliser des bibliothèques externes comme CascView pour extraire les fichiers du client WoW.
+- Convertir les fichiers .ADT, .WMO, ou .M2 dans des formats compatibles avec les outils de manipulation 3D (comme .obj ou .gltf).
+## 2. Backend pour la lecture et la modification :
+- Développer des outils Python capables de lire et d'éditer ces fichiers (ex. : utiliser des bibliothèques comme pywowlib ou en créer une dédiée).
+- Exposer ces fonctionnalités via des API REST.
+## 3. Frontend pour l'édition en temps réel :
+- Charger les modèles et les terrains dans un visualiseur 3D basé sur Three.js ou Babylon.js.
+- Implémenter des outils d'édition (changement de texture, modification de hauteur, placement d'objets).
+- Envoyer les modifications au backend pour mise à jour des fichiers source.
+
 
