@@ -177,10 +177,10 @@ Créez le fichier editor/templates/editor/editor.html :
 - Utilisez fetch() pour récupérer les données terrain via l'API Django.
 - Appliquez les données (par exemple, une grille de hauteurs) au terrain.
 
-###2. Sauvegarder les modifications :
+### 2. Sauvegarder les modifications :
 - Implémentez une fonction qui envoie les modifications au backend via l’API POST.
 
-###3. Textures et objets :
+### 3. Textures et objets :
 - Ajoutez la possibilité d'appliquer des textures sur le terrain.
 - Permettez de placer des objets 3D (arbres, bâtiments).
 
