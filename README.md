@@ -8,6 +8,8 @@
   <img src="https://img.shields.io/badge/Django-3776AB?style=flat&logo=python&logoColor=white" alt="Django"/>
 </p>
 
+---
+
 # 1. Analyse des fonctionnalités de Noggit Red
 Noggit Red permet de :
 - Charger et visualiser des cartes du jeu (basées sur des fichiers de terrain et d'objets 3D).
@@ -65,7 +67,6 @@ Les fichiers du jeu World of Warcraft utilisent des formats propriétaires. Voic
 Formats propriétaires : Manipuler des fichiers WoW nativement (comme .ADT, .WMO) est complexe et nécessite une compréhension approfondie des formats.
 Performance : Le rendu en temps réel et la manipulation de grandes cartes nécessitent des optimisations front-end.
 Interopérabilité : Rendre les fichiers modifiés compatibles avec WoW implique de respecter leurs spécifications exactes.
----
 
 # 7. Conclusion
 Il est techniquement possible de recréer un éditeur comme Noggit Red en utilisant Django pour le backend et des outils comme Three.js ou Babylon.js pour le frontend. Cependant, cela nécessitera :
