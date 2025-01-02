@@ -19,4 +19,21 @@ Reproduire ces fonctionnalités implique :
 - Un backend capable de lire et écrire les fichiers du jeu (par exemple, les fichiers .ADT, .WMO, ou .M2).
 - Un frontend capable de rendre des modèles 3D en temps réel, d'appliquer des textures et d'interagir avec l'utilisateur.
 
+# 2. Rôle de Django
+Django peut jouer un rôle crucial dans le backend :
+- Gestion des fichiers : Django peut être utilisé pour uploader, lire, et servir les fichiers nécessaires.
+- API RESTful : Django REST Framework (DRF) peut exposer des endpoints permettant au frontend d'interagir avec les fichiers du jeu (lecture, modification, sauvegarde).
+- Authentification et permissions : Django peut gérer les utilisateurs, les projets, et les autorisations.
+- Stockage des données : Utiliser une base de données pour enregistrer des métadonnées sur les cartes et les modifications.
+
+
+# 3. Technologies front-end pour la visualisation 3D
+Pour la partie front-end, Django devra être complété par une bibliothèque ou un moteur 3D capable de gérer les fonctionnalités en temps réel.
+Options populaires :
+- Three.js : Une bibliothèque JavaScript pour rendre des objets 3D dans le navigateur.
+- Babylon.js : Une alternative puissante à Three.js, conçue pour des expériences interactives.
+- Unity WebGL : Une solution plus avancée, mais qui nécessiterait d'intégrer Unity dans une application Django.
+
+Ces outils peuvent gérer le rendu 3D des fichiers convertis depuis le format natif de World of Warcraft (comme les fichiers .ADT ou .WMO).
+
 
