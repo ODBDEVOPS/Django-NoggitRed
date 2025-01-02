@@ -29,10 +29,10 @@ Django peut jouer un rôle crucial dans le backend :
 
 # 3. Technologies front-end pour la visualisation 3D
 Pour la partie front-end, Django devra être complété par une bibliothèque ou un moteur 3D capable de gérer les fonctionnalités en temps réel.
-Options populaires :
-- Three.js : Une bibliothèque JavaScript pour rendre des objets 3D dans le navigateur.
-- Babylon.js : Une alternative puissante à Three.js, conçue pour des expériences interactives.
-- Unity WebGL : Une solution plus avancée, mais qui nécessiterait d'intégrer Unity dans une application Django.
+  Options populaires :
+  - Three.js : Une bibliothèque JavaScript pour rendre des objets 3D dans le navigateur.
+  - Babylon.js : Une alternative puissante à Three.js, conçue pour des expériences interactives.
+  - Unity WebGL : Une solution plus avancée, mais qui nécessiterait d'intégrer Unity dans une application Django.
 
 Ces outils peuvent gérer le rendu 3D des fichiers convertis depuis le format natif de World of Warcraft (comme les fichiers .ADT ou .WMO).
 
