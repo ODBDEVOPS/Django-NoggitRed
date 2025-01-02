@@ -27,4 +27,12 @@ Commencez par un ensemble minimal de fonctionnalités :
 
 ---
 
+# Étape 3 : Création du projet Django
+## 1. Initialiser un projet Django :
+
+``` python
+django-admin startproject terrain_editor
+cd terrain_editor
+python manage.py startapp editor
+```
 
