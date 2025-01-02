@@ -51,4 +51,14 @@ Les fichiers du jeu World of Warcraft utilisent des formats propriétaires. Voic
 - Implémenter des outils d'édition (changement de texture, modification de hauteur, placement d'objets).
 - Envoyer les modifications au backend pour mise à jour des fichiers source.
 
+# 5. Exemple de flux de travail Django/Three.js
+## 1. Backend Django :
+- Une vue pour uploader une carte (fichier .ADT).
+- Un endpoint REST pour retourner les données de la carte converties en JSON (ex. : géométrie, textures).
+- Une vue pour sauvegarder les modifications.
+## 2. Frontend avec Three.js :
+- Récupérer la carte via l'API REST.
+- Afficher le terrain en 3D.
+- Ajouter des outils d'édition (ex. : glisser pour modifier la hauteur, appliquer des textures).
+
 
